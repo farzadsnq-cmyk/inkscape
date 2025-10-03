@@ -1,0 +1,18 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Central stem -->
+  <path d="M100 50 L100 250" stroke="black" stroke-width="20" fill="none"/>
+  
+  <!-- Upper wings -->
+  <path d="M60 100 Q50 50 20 100" fill="black"/>
+  <path d="M140 100 Q150 50 180 100" fill="black"/>
+  
+  <!-- Lower wings -->
+  <path d="M60 200 Q50 250 20 200" fill="black"/>
+  <path d="M140 200 Q150 250 180 200" fill="black"/>
+  
+  <!-- Texture simulation (optional, simple pattern) -->
+  <pattern id="texture" patternUnits="userSpaceOnUse" width="10" height="10">
+    <circle cx="5" cy="5" r="1" fill="#333"/>
+  </pattern>
+  <rect x="0" y="0" width="200" height="300" fill="url(#texture)" opacity="0.5"/>
+</svg>
